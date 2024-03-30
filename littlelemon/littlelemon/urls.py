@@ -29,4 +29,7 @@ urlpatterns = [
     path('restaurant/', include('restaurant.urls')),
     # Include router URLs
     path('restaurant/booking/', include(router.urls)),
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken')),
+    path('', include('restaurant.urls')),
 ]
