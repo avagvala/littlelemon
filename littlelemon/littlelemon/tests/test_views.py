@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.urls import reverse
-from ..models import Menu
-from ..serializers import MenuSerializer
+from restaurant.models import Menu
+from restaurant.serializers import MenuSerializer
 from rest_framework import status
 from rest_framework.test import APIClient
 
