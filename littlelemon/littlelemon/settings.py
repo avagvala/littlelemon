@@ -138,3 +138,5 @@ REST_FRAMEWORK = {
 }
 
 DJOSER={"USER_ID_FIELD":"username"}
+
+TEST_RUNNER = 'django.test.runner.DiscoverRunner'
